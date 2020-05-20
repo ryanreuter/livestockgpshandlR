@@ -1,0 +1,20 @@
+Package: livestockgpshandlR
+Title: Helps wrangle livestock gps data.
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Ryan",
+           family = "Reuter",
+           role = c("aut", "cre"),
+           email = "ryan.reuter@okstate.edu",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package helps load data from inexpensive iGotU data loggers that are frequently used to track livestock for research purposes. The package also helps to visualize and clean the data, prepping it for further analysis.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to
+    pick a license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+Imports: 
+    tidyverse,
+    ggmap,
+    RgoogleMaps
